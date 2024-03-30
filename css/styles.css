@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+#contenedor {
+    padding-left: 0.5em;
+    text-align: left;
+    width: 825px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+}
