@@ -36,7 +36,8 @@ function mostrarDatos() {
 
       // CREO EL boton EDITAR Y AÑADO UN EVENTO PARA QUE EDITE POR EL nombre
       botonEditar.innerHTML = "Editar";
-      botonEditar.addEventListener("click", function () {
+      botonEditar.addEventListener("click", function (event) {
+        event.preventDefault();
         cargarDatosParaModificar(dato.nombre, dato.edad);
       });
 
